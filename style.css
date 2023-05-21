@@ -112,4 +112,13 @@
   align-items: center;
   /* background-color: azure; */
 }
+
+.fundo_form{
+  width: 80%;
+  height: 87%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: cadetblue; */
+  
   
