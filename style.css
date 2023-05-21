@@ -95,4 +95,31 @@
   .round:before{
     border-radius: 50%
   }
-  
+ 
+  .fundo_conteudo{
+    width: 100%;
+    height: 545px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+}
+
+.section_form{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: azure; */
+}
+
+.fundo_form{
+    width: 80%;
+    height: 87%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: cadetblue; */
+}
+
