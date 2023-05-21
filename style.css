@@ -78,5 +78,5 @@
   .bolinha:checked + .slider:before {
     -webkit-transform: translateX(18px);
     -ms-transform: translateX(18px);
-    transform: translateX(17px);
+    transform: translateX(18px);
   }
