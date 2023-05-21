@@ -14,3 +14,10 @@
     align-items: center;
     background-color: blueviolet;
 }
+
+.txt_checkbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
