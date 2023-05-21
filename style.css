@@ -29,3 +29,10 @@
     color: white;
     margin-bottom: 5px;
 }
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 42px;
+    height: 25px;
+  }
