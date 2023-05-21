@@ -129,4 +129,10 @@
     justify-content: center;
     align-items: center;
 }
+.titulo_h2{
+  font-size: 30px;
+  text-transform: capitalize;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
   
