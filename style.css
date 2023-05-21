@@ -122,4 +122,19 @@
     align-items: center;
     /* background-color: cadetblue; */
 }
+.form{
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo_h2{
+  font-size: 30px;
+  text-transform: capitalize;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
 
