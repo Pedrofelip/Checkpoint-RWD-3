@@ -66,3 +66,7 @@
     -webkit-transition: 0.4s;
     transition: 0.4s;
   }
+
+  .bolinha:checked + .slider {
+    background-color: #2196F3;
+  }
