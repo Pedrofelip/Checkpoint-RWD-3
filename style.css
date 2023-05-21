@@ -36,3 +36,9 @@
     width: 42px;
     height: 25px;
   }
+
+  .switch .bolinha {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
