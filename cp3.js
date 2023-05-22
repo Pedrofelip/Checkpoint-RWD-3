@@ -76,3 +76,11 @@ input2.oninput = function(){
     label2.style.color = this.value.length < 5 || this.value == null ? "red" : "purple";
     alerta2.innerHTML = this.value.length < 5 || this.value == null ? "Sobrenome invalido!!!" : "";
 }
+
+input3.oninput = function(email){
+    let re = /\S+@\S+\.\S+/;
+
+    this.style.border = re.test(this.value) != true || this.value == null ? "2px solid red" : "2px solid purple";
+    label2.style.color = re.test(this.value) != true || this.value == null ? "red" : "purple";
+    alerta3.innerHTML = re.test(this.value) != true || this.value == null ? "Email invalido!!!" : "";
+}
