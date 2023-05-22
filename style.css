@@ -151,3 +151,10 @@
     display: flex;
     flex-direction: column;
 }
+
+.titulo_input{
+    font-size: 13px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    color: purple;
+}
