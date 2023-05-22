@@ -84,3 +84,10 @@ input3.oninput = function(email){
     label2.style.color = re.test(this.value) != true || this.value == null ? "red" : "purple";
     alerta3.innerHTML = re.test(this.value) != true || this.value == null ? "Email invalido!!!" : "";
 }
+
+input4.oninput = function(){
+    this.style.border = this.value.length < 6 || this.value.length > 8 || this.value == null ? "2px solid red" : "2px solid purple";
+    label4.style.color = this.value.length < 6 || this.value.length > 8 || this.value == null ? "red" : "purple";
+    alerta4.innerHTML = this.value.length < 6 || this.value.length > 8 || this.value == null ? "Senha invalida!!!" : "";
+
+}
