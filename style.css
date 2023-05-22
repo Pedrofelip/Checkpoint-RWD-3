@@ -204,3 +204,9 @@
     font-weight: 600;
     cursor: pointer;
 }
+
+.btn_cad:hover{
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.363);
+    transition: 0.3s;
+    transform: scale(1.06);
+}
