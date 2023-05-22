@@ -97,3 +97,11 @@ input5.oninput = function(){
     label5.style.border = this.value != input4.value ? "red" : "purple";
     alerta5.innerHTML = this.value != input4.value ? "Senha incorreta!!!" : "";
 }
+
+btn.addEventListener("click", function () {
+    if(input5.oninput != true){
+        alert("errado");
+    }else{
+        alert("certo")
+    }
+});
