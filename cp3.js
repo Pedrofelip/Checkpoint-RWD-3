@@ -91,3 +91,9 @@ input4.oninput = function(){
     alerta4.innerHTML = this.value.length < 6 || this.value.length > 8 || this.value == null ? "Senha invalida!!!" : "";
 
 }
+
+input5.oninput = function(){
+    this.style.border = this.value != input4.value ? "2px solid red" : "2px solid purple";
+    label5.style.border = this.value != input4.value ? "red" : "purple";
+    alerta5.innerHTML = this.value != input4.value ? "Senha incorreta!!!" : "";
+}
