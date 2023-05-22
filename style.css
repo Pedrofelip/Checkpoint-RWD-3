@@ -175,3 +175,8 @@
     background-color: rgba(128, 168, 241, 0.356);
     border: 2px solid plum;
 }
+
+.input:hover{
+    border: 2px solid plum;
+}
+
