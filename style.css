@@ -191,3 +191,16 @@
     width: 44%;
     height: 87%;
 }
+
+.btn_cad{
+    width: 40%;
+    height: 35px;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    background-color: purple;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
