@@ -64,3 +64,9 @@ interruptor.addEventListener("click", function () {
         btn.style.color = "white";
     }
 });
+
+input1.oninput = function(){
+    this.style.border = this.value.length < 5 || this.value == null ? "2px solid red" : "2px solid purple";
+    label1.style.color = this.value.length < 5 || this.value == null ? "red" : "purple";
+    alerta1.innerHTML = this.value.length < 5 || this.value == null ? "Nome invalido!!!" : "";
+}
