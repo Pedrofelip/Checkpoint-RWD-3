@@ -110,7 +110,7 @@ input5.oninput = function(){
 }
 
 btn.addEventListener("click", function () {
-    if(input1.value.length >= 5 && input2.value.length >= 5 && re.test(input3.value) == true && input4.value.length >= 6 && input4.value.length < 8 && input5.value == input4.value){
+    if(input1.value.length >= 5 && input2.value.length >= 5 && re.test(input3.value) == true && input4.value.length >= 6 && input4.value.length <= 8 && input5.value == input4.value){
         alert("parabens voce está logado");
     }else{
         alert("formulario preenchido errado, tente novamente")
