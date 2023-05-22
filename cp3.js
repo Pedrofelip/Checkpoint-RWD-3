@@ -15,3 +15,28 @@ const alerta2 = document.getElementById("alerta_2");
 const alerta3 = document.getElementById("alerta_3");
 const alerta4 = document.getElementById("alerta_4");
 const alerta5 = document.getElementById("alerta_5");
+interruptor.addEventListener("click", function () {
+    if (interruptor.checked) {
+        let cabecalho = document.getElementById("header");
+        let txt_switch = document.getElementById("texto_sw");
+        let fundo_conteudo = document.getElementById("fd_cont");
+        let titulo_h2 = document.getElementById("tit_h2");
+        document.querySelector("img").src = "./img/pngegg-removebg-preview.png"
+
+        cabecalho.style.backgroundColor = "#F1B565";
+        txt_switch.style.color = "black";
+        fundo_conteudo.style.backgroundColor = "black";
+        titulo_h2.style.color = "white";
+        label1.style.color = "#F1B565"
+        label2.style.color = "#F1B565"
+        label3.style.color = "#F1B565"
+        label4.style.color = "#F1B565"
+        label5.style.color = "#F1B565"
+        input1.style.border = "2px solid #F1B565";
+        input2.style.border = "2px solid #F1B565";
+        input3.style.border = "2px solid #F1B565";
+        input4.style.border = "2px solid #F1B565";
+        input5.style.border = "2px solid #F1B565";
+        btn.style.backgroundColor = "#F1B565";
+        btn.style.color = "black";
+    }
