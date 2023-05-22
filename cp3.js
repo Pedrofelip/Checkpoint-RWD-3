@@ -39,4 +39,28 @@ interruptor.addEventListener("click", function () {
         input5.style.border = "2px solid #F1B565";
         btn.style.backgroundColor = "#F1B565";
         btn.style.color = "black";
+    }else {
+        let cabecalho = document.getElementById("header");
+        let txt_switch = document.getElementById("texto_sw");
+        let fundo_conteudo = document.getElementById("fd_cont");
+        let titulo_h2 = document.getElementById("tit_h2");
+        document.querySelector("img").src = "./img/pngegg.png"
+
+        cabecalho.style.backgroundColor = "blueviolet";
+        txt_switch.style.color = "white";
+        fundo_conteudo.style.backgroundColor = "white";
+        titulo_h2.style.color = "black";
+        label1.style.color = "purple";
+        label2.style.color = "purple";
+        label3.style.color = "purple";
+        label4.style.color = "purple";
+        label5.style.color = "purple";
+        input1.style.border = "2px solid purple";
+        input2.style.border = "2px solid purple";
+        input3.style.border = "2px solid purple";
+        input4.style.border = "2px solid purple";
+        input5.style.border = "2px solid purple";
+        btn.style.backgroundColor = "purple";
+        btn.style.color = "white";
     }
+});
