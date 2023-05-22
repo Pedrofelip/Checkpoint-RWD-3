@@ -15,6 +15,7 @@ const alerta2 = document.getElementById("alerta_2");
 const alerta3 = document.getElementById("alerta_3");
 const alerta4 = document.getElementById("alerta_4");
 const alerta5 = document.getElementById("alerta_5");
+const re = /\S+@\S+\.\S+/;
 interruptor.addEventListener("click", function () {
     if (interruptor.checked) {
         let cabecalho = document.getElementById("header");
@@ -37,6 +38,11 @@ interruptor.addEventListener("click", function () {
         input3.style.border = "2px solid #F1B565";
         input4.style.border = "2px solid #F1B565";
         input5.style.border = "2px solid #F1B565";
+        input1.style.color = "white";
+        input2.style.color = "white";
+        input3.style.color = "white";
+        input4.style.color = "white";
+        input5.style.color = "white";
         btn.style.backgroundColor = "#F1B565";
         btn.style.color = "black";
     }else {
@@ -60,6 +66,11 @@ interruptor.addEventListener("click", function () {
         input3.style.border = "2px solid purple";
         input4.style.border = "2px solid purple";
         input5.style.border = "2px solid purple";
+        input1.style.color = "black";
+        input2.style.color = "black";
+        input3.style.color = "black";
+        input4.style.color = "black";
+        input5.style.color = "black";
         btn.style.backgroundColor = "purple";
         btn.style.color = "white";
     }
@@ -78,7 +89,7 @@ input2.oninput = function(){
 }
 
 input3.oninput = function(email){
-    let re = /\S+@\S+\.\S+/;
+    
 
     this.style.border = re.test(this.value) != true || this.value == null ? "2px solid red" : "2px solid purple";
     label2.style.color = re.test(this.value) != true || this.value == null ? "red" : "purple";
@@ -99,9 +110,9 @@ input5.oninput = function(){
 }
 
 btn.addEventListener("click", function () {
-    if(input5.oninput != true){
-        alert("errado");
+    if(input1.value.length >= 5 && input2.value.length >= 5 && re.test(input3.value) == true && input4.value.length >= 6 && input4.value.length < 8 && input5.value == input4.value){
+        alert("parabens voce está logado");
     }else{
-        alert("certo")
+        alert("formulario preenchido errado, tente novamente")
     }
 });
