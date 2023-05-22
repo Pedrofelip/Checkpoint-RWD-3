@@ -145,3 +145,9 @@
   justify-content: space-around;
   align-items: center;
 }
+
+.inputs{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
